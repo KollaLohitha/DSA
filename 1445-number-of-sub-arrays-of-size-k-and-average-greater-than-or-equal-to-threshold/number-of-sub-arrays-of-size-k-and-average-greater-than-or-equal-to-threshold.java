@@ -2,7 +2,11 @@
 APPROACH - SLIDING WINDOW(Fixed Size)
 TIME COMPLEXITY = O(N)
 SPACE COMPLEXITY = O(1)
+
+OPTIMIZATION:-
+    Here w=i am calculating average by making avg = sum/k . We can precalculate it sum like targetSum = threshold * k
  */
+
 
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
