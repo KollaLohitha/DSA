@@ -1,3 +1,9 @@
+/* 
+APPROACH - SLIDING WINDOW
+TIME COMPLEXITY = O(N) (N is the length of the string)
+SPACE COMPLEXITY = O(1)
+ */
+
 class Solution {
     private boolean isVowel(char ch){
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
